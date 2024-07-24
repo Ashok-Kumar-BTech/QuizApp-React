@@ -61,3 +61,22 @@ body {
 .home-gif img{
   width: 30%;
 }
+
+#header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: rgba(0,0,0,0.5);
+  border-bottom: 2px solid #AAA;
+  margin-bottom: 20px;
+}
+
+#header button{
+  padding: none;
+  margin-left: 45%;
+}
+
+#header span {
+  font-size: 1.2em;
+  font-weight: bold;
+}
