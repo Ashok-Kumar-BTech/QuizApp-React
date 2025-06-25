@@ -3,7 +3,7 @@ import { useAuth0 } from '@auth0/auth0-react';
 import QuizInstructions from './components/QuizInstructions.js';
 import QuestionPage from './components/QuestionPage.js';
 import ResultPage from './components/ResultPage.js';
-import LoginButton from './components/LoginButton.js';
+import LoginPage from './components/LoginButton.js';
 import LogoutButton from './components/LogoutButton.js';
 import quizData from './questions/quizData.js';
 
@@ -87,7 +87,7 @@ function App() {
           {currentPage === 'result' && <ResultPage score={score} onRetake={handleRetake} />}
         </>
       ) : (
-        <LoginButton />
+        <LoginPage />
       )}
     </div>
   );
