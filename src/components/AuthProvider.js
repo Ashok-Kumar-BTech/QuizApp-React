@@ -16,7 +16,7 @@ const Auth0ProviderWithHistory = ({ children }) => {
       domain={domain}
       clientId={clientId}
       authorizationParams={{
-        redirect_uri: "https://quizapp-react-ys6a.onrender.com/callback"
+        redirect_uri: window.location.origin
       }}
       onRedirectCallback={onRedirectCallback}
     >
